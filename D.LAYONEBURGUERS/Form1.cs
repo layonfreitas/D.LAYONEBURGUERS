@@ -15,6 +15,7 @@ namespace D.LAYONEBURGUERS
         public Form1()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -33,6 +34,26 @@ namespace D.LAYONEBURGUERS
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbcCardapio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void foodItemControl1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void foodItemControl1_Load_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
