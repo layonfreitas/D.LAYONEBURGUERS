@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alunos\\source\\repos\\D.LAYONEBURGUERS\\",
+  "WorkspaceRootPath": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|c:\\users\\alunos\\source\\repos\\d.layoneburguers\\d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|c:\\users\\alunos\\desktop\\d.layoneburguers\\d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|C:\\Users\\Alunos\\source\\repos\\D.LAYONEBURGUERS\\d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\d.layoneburguers\\fooditemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\fooditemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,26 +31,59 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Alunos\\source\\repos\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
               "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.cs",
-              "ToolTip": "C:\\Users\\Alunos\\source\\repos\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
-              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs [Design]",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:51:39.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T13:20:05.543Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Alunos\\source\\repos\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
               "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.cs",
-              "ToolTip": "C:\\Users\\Alunos\\source\\repos\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs [Design]",
-              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwBwAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:20:05.543Z",
+              "WhenOpened": "2026-03-16T13:51:39.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "a62d0ddb-4526-4888-9b12-6d7619e15825",
+        "Display": 0,
+        "X": -169,
+        "Y": 212,
+        "Width": 781,
+        "Height": 634,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodItemControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\FoodItemControl.cs",
+              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\FoodItemControl.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\FoodItemControl.cs [Design]",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\FoodItemControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:40:00.611Z",
               "EditorCaption": " [Design]"
             }
           ]

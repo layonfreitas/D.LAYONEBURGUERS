@@ -8,19 +8,55 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace D.LAYONEBURGUERS
 {
     public partial class Form1 : Form
     {
+
+        double precoitem1, precoitem2, precoitem3, precoitem4, precoitem5, precoTotal;
+        
+        
+
+        
         public Form1()
         {
             InitializeComponent();
-            this.DoubleBuffered = true;
+            lblPrecoTotal.Text = "R$ 0.00";
+           
+            foodItemControl1.numericUpDown1.ValueChanged += (s, e) =>
+            {
+                GerenciarItemCarrinho(precoitem1, "lblItem1", "Papa Layon Chicken", foodItemControl1.numericUpDown1.Value, 32.00);
+            };
+            
+            foodItemControl2.numericUpDown1.ValueChanged += (s, e) =>
+            {
+                GerenciarItemCarrinho(precoitem2, "lblItem2", "Papa Layon Chicken", foodItemControl2.numericUpDown1.Value, 32.00);
+            };
+            
+            foodItemControl3.numericUpDown1.ValueChanged += (s, e) =>
+            {
+                GerenciarItemCarrinho(precoitem3, "lblItem3", "Papa Layon Chicken", foodItemControl3.numericUpDown1.Value, 32.00);
+            };
+            
+            foodItemControl4.numericUpDown1.ValueChanged += (s, e) =>
+            {
+                GerenciarItemCarrinho(precoitem4, "lblItem4", "Papa Layon Chicken", foodItemControl4.numericUpDown1.Value, 32.00);
+            };
+
+            foodItemControl5.numericUpDown1.ValueChanged += (s, e) =>
+            {
+                GerenciarItemCarrinho(precoitem5, "lblItem5", "Papa Layon Chicken", foodItemControl5.numericUpDown1.Value, 32.00);
+            };
+
         }
+
+        
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -57,5 +93,112 @@ namespace D.LAYONEBURGUERS
         {
 
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void foodItemControl6_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void foodItemControl2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            foodItemControl1.numericUpDown1.Value = 0;
+            foodItemControl2.numericUpDown1.Value = 0;
+            foodItemControl3.numericUpDown1.Value = 0;
+            foodItemControl4.numericUpDown1.Value = 0;
+            foodItemControl5.numericUpDown1.Value = 0;
+        }
+
+        private void foodItemControl1_Load_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (flowLayoutPanel3.Controls.Count > 0)
+            {
+                if (MessageBox.Show("Tem certeza", "Confirmar pedido", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    Close();
+                }
+            }
+        }
+
+        private void foodItemControl5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void AtualizaCarrinho()
+        {
+            if(flowLayoutPanel3.Controls.Count == 0)
+            {
+                lblVazio.Visible = true;
+
+            }
+
+            else
+            {
+                lblVazio.Visible = false;
+                precoTotal = precoitem1 + precoitem2 + precoitem3 + precoitem4 + precoitem5;
+                lblPrecoTotal.Text = "R$ " + precoTotal.ToString();
+            }
+
+
+        }
+        private void GerenciarItemCarrinho(double precoItem, string NomeLabel, string nomeproduto,decimal qtd,  double preco)
+        {
+            Label label = new Label();
+            label.ForeColor = Color.White; 
+
+
+            precoItem = Convert.ToDouble(qtd) * preco;
+
+            if(qtd>0){
+                label.Text = $"{qtd}- {nomeproduto} R${precoItem}";
+                label.Name = NomeLabel;
+                flowLayoutPanel3.Controls.Add(label);
+            }
+            else if (flowLayoutPanel3.Controls.ContainsKey(NomeLabel))
+            {
+                flowLayoutPanel3.Controls.Remove(label);
+                
+            }
+
+            AtualizaCarrinho();
+            
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+     
     }
 }

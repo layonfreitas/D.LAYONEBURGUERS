@@ -9,3 +9,14 @@ C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LA
 C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.csproj.CoreCompileInputs.cache
 C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.exe
 C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.pdb
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\bin\Debug\D.LAYONEBURGUERS.exe.config
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\bin\Debug\D.LAYONEBURGUERS.exe
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\bin\Debug\D.LAYONEBURGUERS.pdb
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.csproj.AssemblyReference.cache
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.FoodItemControl.resources
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.Form1.resources
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.Properties.Resources.resources
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.csproj.GenerateResource.cache
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.exe
+C:\Users\Alunos\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.pdb
