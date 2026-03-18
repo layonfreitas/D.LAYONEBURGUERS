@@ -36,10 +36,16 @@ namespace D.LAYONEBURGUERS
             set { pictureBox1.Image = value; }
 
         }
+        public PictureBoxSizeMode SizeModeImagem
+        {
+            get { return pictureBox1.SizeMode; }
+            set { pictureBox1.SizeMode = value; }
+        }
 
         public FoodItemControl()
         {
             InitializeComponent();
+
 
         }
 

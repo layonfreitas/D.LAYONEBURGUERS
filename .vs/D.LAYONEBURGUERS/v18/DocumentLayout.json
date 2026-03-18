@@ -7,7 +7,19 @@
       "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|c:\\users\\layon\\onedrive\\desktop\\d.layoneburguers\\d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|c:\\users\\layon\\onedrive\\desktop\\d.layoneburguers\\d.layoneburguers\\fooditemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\fooditemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|c:\\users\\layon\\onedrive\\desktop\\d.layoneburguers\\d.layoneburguers\\fooditemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\fooditemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|c:\\users\\layon\\onedrive\\desktop\\d.layoneburguers\\d.layoneburguers\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9156301-A4EE-4D95-80ED-25F23E31F3D5}|D.LAYONEBURGUERS\\D.LAYONEBURGUERS.csproj|solutionrelative:d.layoneburguers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,23 +30,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodItemControl.cs",
+              "DocumentMoniker": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\FoodItemControl.cs",
+              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\FoodItemControl.cs",
+              "ToolTip": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\FoodItemControl.cs",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\FoodItemControl.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIA4wCYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T23:46:40.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
+              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.cs",
+              "ToolTip": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAIwHwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T00:59:15.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodItemControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\FoodItemControl.cs",
+              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\FoodItemControl.cs",
+              "ToolTip": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\FoodItemControl.cs [Design]",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\FoodItemControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T23:02:53.089Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
-              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.cs",
-              "ToolTip": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
-              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\layon\\OneDrive\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.Designer.cs",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.Designer.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAUwEUBAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T00:59:15.816Z",
+              "WhenOpened": "2026-03-17T20:54:39.699Z",
               "EditorCaption": ""
             },
             {

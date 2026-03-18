@@ -24,30 +24,31 @@ namespace D.LAYONEBURGUERS
             InitializeComponent();
             lblPrecoTotal.Text = "R$ 0.00";
            
-            foodItemControl1.numericUpDown1.ValueChanged += (s, e) =>
+           /* foodItemControl1.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(precoitem1, "lblItem1", "Papa Layon Chicken", foodItemControl1.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem1, "lblItem1", "Papa Layon Chicken", foodItemControl1.numericUpDown1.Value, 32.00);
             };
             
             foodItemControl2.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(precoitem2, "lblItem2", "Papa Layon Chicken", foodItemControl2.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem2, "lblItem2", "Papa Layon Chicken", foodItemControl2.numericUpDown1.Value, 32.00);
             };
             
             foodItemControl3.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(precoitem3, "lblItem3", "Papa Layon Chicken", foodItemControl3.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem3, "lblItem3", "Papa Layon Chicken", foodItemControl3.numericUpDown1.Value, 32.00);
             };
             
             foodItemControl4.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(precoitem4, "lblItem4", "Papa Layon Chicken", foodItemControl4.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem4, "lblItem4", "Papa Layon Chicken", foodItemControl4.numericUpDown1.Value, 32.00);
             };
 
             foodItemControl5.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(precoitem5, "lblItem5", "Papa Layon Chicken", foodItemControl5.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem5, "lblItem5", "Papa Layon Chicken", foodItemControl5.numericUpDown1.Value, 32.00);
             };
+           */
 
         }
 
@@ -121,11 +122,11 @@ namespace D.LAYONEBURGUERS
 
         private void button2_Click(object sender, EventArgs e)
         {
-            foodItemControl1.numericUpDown1.Value = 0;
+            /*foodItemControl1.numericUpDown1.Value = 0;
             foodItemControl2.numericUpDown1.Value = 0;
             foodItemControl3.numericUpDown1.Value = 0;
             foodItemControl4.numericUpDown1.Value = 0;
-            foodItemControl5.numericUpDown1.Value = 0;
+            foodItemControl5.numericUpDown1.Value = 0;*/
         }
 
         private void foodItemControl1_Load_2(object sender, EventArgs e)
@@ -169,15 +170,16 @@ namespace D.LAYONEBURGUERS
                 lblPrecoTotal.Text = "R$ " + precoTotal.ToString();
             }
 
-
+            
         }
-        private void GerenciarItemCarrinho(double precoItem, string NomeLabel, string nomeproduto,decimal qtd,  double preco)
+        private void GerenciarItemCarrinho(ref double precoItem, string NomeLabel, string nomeproduto,decimal qtd,  double preco)
         {
             Label label = new Label();
             label.ForeColor = Color.White; 
 
 
             precoItem = Convert.ToDouble(qtd) * preco;
+
 
             if(qtd>0){
                 label.Text = $"{qtd}- {nomeproduto} R${precoItem}";
