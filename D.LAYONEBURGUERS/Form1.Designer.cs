@@ -40,13 +40,13 @@
             this.foodItemControl6 = new D.LAYONEBURGUERS.FoodItemControl();
             this.tbcCarrinho = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblPrecoTotal = new System.Windows.Forms.Label();
             this.lblVazio = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnConfirm = new System.Windows.Forms.Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tbcCardapio.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
@@ -207,21 +207,28 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.lblPrecoTotal);
             this.panel1.Controls.Add(this.lblVazio);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnCancel);
+            this.panel1.Controls.Add(this.btnConfirm);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 468);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(475, 83);
             this.panel1.TabIndex = 1;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(19, 28);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(180, 50);
+            this.textBox1.TabIndex = 4;
+            // 
             // lblPrecoTotal
             // 
-            this.lblPrecoTotal.AutoSize = true;
             this.lblPrecoTotal.BackColor = System.Drawing.Color.White;
-            this.lblPrecoTotal.Location = new System.Drawing.Point(392, 12);
+            this.lblPrecoTotal.Location = new System.Drawing.Point(369, 12);
             this.lblPrecoTotal.Name = "lblPrecoTotal";
-            this.lblPrecoTotal.Size = new System.Drawing.Size(35, 13);
+            this.lblPrecoTotal.Size = new System.Drawing.Size(68, 13);
             this.lblPrecoTotal.TabIndex = 3;
             this.lblPrecoTotal.Text = "label1";
             this.lblPrecoTotal.Click += new System.EventHandler(this.label1_Click_2);
@@ -236,25 +243,29 @@
             this.lblVazio.Text = "Nenhum item adicionado ao carrinho.";
             this.lblVazio.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // button2
+            // btnCancel
             // 
-            this.button2.Location = new System.Drawing.Point(288, 55);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnCancel.BackColor = System.Drawing.Color.Silver;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Location = new System.Drawing.Point(288, 55);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 1;
+            this.btnCancel.Text = "Cancelar";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // btnConfirm
             // 
-            this.button1.Location = new System.Drawing.Point(369, 55);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Confirmar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnConfirm.BackColor = System.Drawing.Color.Silver;
+            this.btnConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirm.Location = new System.Drawing.Point(369, 55);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(75, 23);
+            this.btnConfirm.TabIndex = 0;
+            this.btnConfirm.Text = "Confirmar";
+            this.btnConfirm.UseVisualStyleBackColor = false;
+            this.btnConfirm.Click += new System.EventHandler(this.button1_Click);
             // 
             // flowLayoutPanel3
             // 
@@ -274,14 +285,6 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(465, 97);
             this.flowLayoutPanel1.TabIndex = 3;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(19, 28);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 50);
-            this.textBox1.TabIndex = 4;
             // 
             // Form1
             // 
@@ -314,8 +317,8 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblVazio;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Label lblPrecoTotal;
         private FoodItemControl foodItemControl1;
         private FoodItemControl foodItemControl2;

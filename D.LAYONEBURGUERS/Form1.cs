@@ -14,7 +14,7 @@ namespace D.LAYONEBURGUERS
     public partial class Form1 : Form
     {
 
-        double precoitem1, precoitem2, precoitem3, precoitem4, precoitem5, precoTotal;
+        double precoitem1, precoitem2, precoitem3, precoitem4, precoitem5,precoitem6, precoTotal;
         
         
 
@@ -46,12 +46,12 @@ namespace D.LAYONEBURGUERS
 
             foodItemControl5.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(ref precoitem5, "lblItem5", " coca-cola", foodItemControl5.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem5, "lblItem5", " oh layon", foodItemControl5.numericUpDown1.Value, 32.00);
             }; 
             
             foodItemControl6.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(ref precoitem5, "lblItem5", " coca-cola", foodItemControl5.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem6, "lblItem6", " coca-cola", foodItemControl5.numericUpDown1.Value, 32.00);
             };
 
 
@@ -132,6 +132,7 @@ namespace D.LAYONEBURGUERS
             foodItemControl3.numericUpDown1.Value = 0;
             foodItemControl4.numericUpDown1.Value = 0;
             foodItemControl5.numericUpDown1.Value = 0;
+            
         }
 
         private void foodItemControl1_Load_2(object sender, EventArgs e)
@@ -148,6 +149,8 @@ namespace D.LAYONEBURGUERS
                     Close();
                 }
             }
+
+
         }
 
         private void foodItemControl5_Load(object sender, EventArgs e)
@@ -165,17 +168,19 @@ namespace D.LAYONEBURGUERS
             if(flowLayoutPanel3.Controls.Count == 0)
             {
                 lblVazio.Text = "Nenhum item adicionado ao carrinho.";
+                btnConfirm.Enabled = false;
+                btn
 
             }
 
             else
             {
                 lblVazio.Text = "Observações:";
-                precoTotal = precoitem1 + precoitem2 + precoitem3 + precoitem4 + precoitem5;
-                lblPrecoTotal.Text = "R$ " + precoTotal.ToString();
+                
             }
+            precoTotal = precoitem1 + precoitem2 + precoitem3 + precoitem4 + precoitem5;
+            lblPrecoTotal.Text = "R$ " + precoTotal.ToString("F2");
 
-            
         }
         private void GerenciarItemCarrinho(ref double precoItem, string NomeLabel, string nomeproduto,decimal qtd,  double preco)
         {
