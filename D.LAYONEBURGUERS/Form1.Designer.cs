@@ -58,10 +58,10 @@
             // 
             this.tabControl1.Controls.Add(this.tbcCardapio);
             this.tabControl1.Controls.Add(this.tbcCarrinho);
-            this.tabControl1.Location = new System.Drawing.Point(0, 116);
+            this.tabControl1.Location = new System.Drawing.Point(0, 101);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(488, 632);
+            this.tabControl1.Size = new System.Drawing.Size(502, 664);
             this.tabControl1.TabIndex = 2;
             // 
             // tbcCardapio
@@ -71,7 +71,7 @@
             this.tbcCardapio.Location = new System.Drawing.Point(4, 22);
             this.tbcCardapio.Name = "tbcCardapio";
             this.tbcCardapio.Padding = new System.Windows.Forms.Padding(3);
-            this.tbcCardapio.Size = new System.Drawing.Size(480, 606);
+            this.tbcCardapio.Size = new System.Drawing.Size(494, 638);
             this.tbcCardapio.TabIndex = 1;
             this.tbcCardapio.Text = "Cardápio";
             this.tbcCardapio.Click += new System.EventHandler(this.tbcCardapio_Click);
@@ -92,7 +92,7 @@
             this.flowLayoutPanel2.Location = new System.Drawing.Point(2, 0);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(459, 610);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(473, 640);
             this.flowLayoutPanel2.TabIndex = 0;
             this.flowLayoutPanel2.WrapContents = false;
             this.flowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint);
@@ -196,7 +196,7 @@
             this.tbcCarrinho.Location = new System.Drawing.Point(4, 22);
             this.tbcCarrinho.Name = "tbcCarrinho";
             this.tbcCarrinho.Padding = new System.Windows.Forms.Padding(0, 0, 5, 55);
-            this.tbcCarrinho.Size = new System.Drawing.Size(480, 606);
+            this.tbcCarrinho.Size = new System.Drawing.Size(494, 638);
             this.tbcCarrinho.TabIndex = 0;
             this.tbcCarrinho.Text = "Carrinho";
             this.tbcCarrinho.UseVisualStyleBackColor = true;
@@ -210,10 +210,11 @@
             this.panel1.Controls.Add(this.btnCancel);
             this.panel1.Controls.Add(this.btnConfirm);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 468);
+            this.panel1.Location = new System.Drawing.Point(0, 500);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(475, 83);
+            this.panel1.Size = new System.Drawing.Size(489, 83);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // textBox1
             // 
@@ -245,8 +246,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.Silver;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.BackColor = System.Drawing.Color.Transparent;
             this.btnCancel.Location = new System.Drawing.Point(288, 55);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
@@ -257,8 +257,7 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.BackColor = System.Drawing.Color.Silver;
-            this.btnConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirm.BackColor = System.Drawing.Color.Transparent;
             this.btnConfirm.Location = new System.Drawing.Point(369, 55);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(75, 23);
@@ -273,7 +272,7 @@
             this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(475, 435);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(489, 433);
             this.flowLayoutPanel3.TabIndex = 0;
             this.flowLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
             // 

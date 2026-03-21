@@ -62,7 +62,9 @@ namespace D.LAYONEBURGUERS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            btnConfirm.Enabled = false;
+            btnCancel.Enabled = false;
+
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -140,6 +142,11 @@ namespace D.LAYONEBURGUERS
 
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (flowLayoutPanel3.Controls.Count > 0)
@@ -169,14 +176,17 @@ namespace D.LAYONEBURGUERS
             {
                 lblVazio.Text = "Nenhum item adicionado ao carrinho.";
                 btnConfirm.Enabled = false;
-                btn
+                btnCancel.Enabled = false;
+              
 
             }
 
             else
             {
                 lblVazio.Text = "Observações:";
-                
+                btnConfirm.Enabled = true;
+                btnCancel.Enabled = true;
+
             }
             precoTotal = precoitem1 + precoitem2 + precoitem3 + precoitem4 + precoitem5;
             lblPrecoTotal.Text = "R$ " + precoTotal.ToString("F2");

@@ -43,7 +43,7 @@
             this.lblTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblTitulo.Font = new System.Drawing.Font("Arial Black", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(8, 8);
-            this.lblTitulo.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(8);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(60, 22);
             this.lblTitulo.TabIndex = 1;
@@ -65,7 +65,7 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(10, 65);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(31, 20);
             this.numericUpDown1.TabIndex = 3;
@@ -86,7 +86,7 @@
             this.pictureBox1.BackgroundImage = global::D.LAYONEBURGUERS.Properties.Resources.Layon_Chicken;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(335, 6);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(97, 79);
             this.pictureBox1.TabIndex = 0;
@@ -104,7 +104,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(8, 8, 8, 44);
             this.Name = "FoodItemControl";
-            this.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.Padding = new System.Windows.Forms.Padding(8);
             this.Size = new System.Drawing.Size(441, 89);
             this.Load += new System.EventHandler(this.FoodItemControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
