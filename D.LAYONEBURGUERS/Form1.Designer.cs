@@ -32,12 +32,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tbcCardapio = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.foodItemControl1 = new D.LAYONEBURGUERS.FoodItemControl();
-            this.foodItemControl2 = new D.LAYONEBURGUERS.FoodItemControl();
-            this.foodItemControl3 = new D.LAYONEBURGUERS.FoodItemControl();
-            this.foodItemControl4 = new D.LAYONEBURGUERS.FoodItemControl();
-            this.foodItemControl5 = new D.LAYONEBURGUERS.FoodItemControl();
-            this.foodItemControl6 = new D.LAYONEBURGUERS.FoodItemControl();
             this.tbcCarrinho = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -47,6 +41,12 @@
             this.btnConfirm = new System.Windows.Forms.Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.foodItemControl1 = new D.LAYONEBURGUERS.FoodItemControl();
+            this.foodItemControl2 = new D.LAYONEBURGUERS.FoodItemControl();
+            this.foodItemControl3 = new D.LAYONEBURGUERS.FoodItemControl();
+            this.foodItemControl4 = new D.LAYONEBURGUERS.FoodItemControl();
+            this.foodItemControl5 = new D.LAYONEBURGUERS.FoodItemControl();
+            this.foodItemControl6 = new D.LAYONEBURGUERS.FoodItemControl();
             this.tabControl1.SuspendLayout();
             this.tbcCardapio.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
@@ -92,100 +92,10 @@
             this.flowLayoutPanel2.Location = new System.Drawing.Point(2, 0);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(473, 640);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(477, 653);
             this.flowLayoutPanel2.TabIndex = 0;
             this.flowLayoutPanel2.WrapContents = false;
             this.flowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint);
-            // 
-            // foodItemControl1
-            // 
-            this.foodItemControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.foodItemControl1.Descricao = "label1";
-            this.foodItemControl1.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.WhatsApp_Image_2026_03_17_at_20_30_21;
-            this.foodItemControl1.Location = new System.Drawing.Point(4, 8);
-            this.foodItemControl1.Margin = new System.Windows.Forms.Padding(4, 8, 8, 44);
-            this.foodItemControl1.Name = "foodItemControl1";
-            this.foodItemControl1.NomeProduto = "label1";
-            this.foodItemControl1.Padding = new System.Windows.Forms.Padding(8);
-            this.foodItemControl1.Preco = "R$:40.00";
-            this.foodItemControl1.Size = new System.Drawing.Size(441, 89);
-            this.foodItemControl1.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.foodItemControl1.TabIndex = 0;
-            // 
-            // foodItemControl2
-            // 
-            this.foodItemControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.foodItemControl2.Descricao = "label1";
-            this.foodItemControl2.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.WhatsApp_Image_2026_03_17_at_20_301;
-            this.foodItemControl2.Location = new System.Drawing.Point(4, 149);
-            this.foodItemControl2.Margin = new System.Windows.Forms.Padding(4, 8, 8, 44);
-            this.foodItemControl2.Name = "foodItemControl2";
-            this.foodItemControl2.NomeProduto = "label1";
-            this.foodItemControl2.Padding = new System.Windows.Forms.Padding(8);
-            this.foodItemControl2.Preco = "R$:40.00";
-            this.foodItemControl2.Size = new System.Drawing.Size(441, 89);
-            this.foodItemControl2.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.foodItemControl2.TabIndex = 1;
-            // 
-            // foodItemControl3
-            // 
-            this.foodItemControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.foodItemControl3.Descricao = "label1";
-            this.foodItemControl3.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.WhatsApp_Image_2026_03_17_at_20_30_22;
-            this.foodItemControl3.Location = new System.Drawing.Point(4, 290);
-            this.foodItemControl3.Margin = new System.Windows.Forms.Padding(4, 8, 8, 44);
-            this.foodItemControl3.Name = "foodItemControl3";
-            this.foodItemControl3.NomeProduto = "label1";
-            this.foodItemControl3.Padding = new System.Windows.Forms.Padding(8);
-            this.foodItemControl3.Preco = "R$:40.00";
-            this.foodItemControl3.Size = new System.Drawing.Size(441, 89);
-            this.foodItemControl3.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.foodItemControl3.TabIndex = 2;
-            // 
-            // foodItemControl4
-            // 
-            this.foodItemControl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.foodItemControl4.Descricao = "label1";
-            this.foodItemControl4.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.WhatsApp_Image_2026_03_17_at_20_30_22__2_;
-            this.foodItemControl4.Location = new System.Drawing.Point(4, 431);
-            this.foodItemControl4.Margin = new System.Windows.Forms.Padding(4, 8, 8, 44);
-            this.foodItemControl4.Name = "foodItemControl4";
-            this.foodItemControl4.NomeProduto = "label1";
-            this.foodItemControl4.Padding = new System.Windows.Forms.Padding(8);
-            this.foodItemControl4.Preco = "R$:40.00";
-            this.foodItemControl4.Size = new System.Drawing.Size(441, 89);
-            this.foodItemControl4.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.foodItemControl4.TabIndex = 3;
-            // 
-            // foodItemControl5
-            // 
-            this.foodItemControl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.foodItemControl5.Descricao = "label1";
-            this.foodItemControl5.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.WhatsApp_Image_2026_03_17_at_20_30_22__1_;
-            this.foodItemControl5.Location = new System.Drawing.Point(8, 572);
-            this.foodItemControl5.Margin = new System.Windows.Forms.Padding(8, 8, 8, 44);
-            this.foodItemControl5.Name = "foodItemControl5";
-            this.foodItemControl5.NomeProduto = "label1";
-            this.foodItemControl5.Padding = new System.Windows.Forms.Padding(8);
-            this.foodItemControl5.Preco = "R$:40.00";
-            this.foodItemControl5.Size = new System.Drawing.Size(441, 89);
-            this.foodItemControl5.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.foodItemControl5.TabIndex = 4;
-            // 
-            // foodItemControl6
-            // 
-            this.foodItemControl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.foodItemControl6.Descricao = "label1";
-            this.foodItemControl6.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.WhatsApp_Image_2026_03_17_at_20_30_22__3_;
-            this.foodItemControl6.Location = new System.Drawing.Point(8, 713);
-            this.foodItemControl6.Margin = new System.Windows.Forms.Padding(8, 8, 8, 44);
-            this.foodItemControl6.Name = "foodItemControl6";
-            this.foodItemControl6.NomeProduto = "label1";
-            this.foodItemControl6.Padding = new System.Windows.Forms.Padding(8);
-            this.foodItemControl6.Preco = "R$:40.00";
-            this.foodItemControl6.Size = new System.Drawing.Size(441, 89);
-            this.foodItemControl6.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.foodItemControl6.TabIndex = 5;
             // 
             // tbcCarrinho
             // 
@@ -284,6 +194,101 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(465, 97);
             this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // foodItemControl1
+            // 
+            this.foodItemControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.foodItemControl1.Descricao = "Blend do D. Layone  de 170g, queijo mussarela, molho do D.Layone, farofa de bacon" +
+    ", e pão brioche.";
+            this.foodItemControl1.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.lr;
+            this.foodItemControl1.Location = new System.Drawing.Point(4, 8);
+            this.foodItemControl1.Margin = new System.Windows.Forms.Padding(4, 8, 8, 44);
+            this.foodItemControl1.Name = "foodItemControl1";
+            this.foodItemControl1.NomeProduto = "Layone Royale";
+            this.foodItemControl1.Padding = new System.Windows.Forms.Padding(8);
+            this.foodItemControl1.Preco = "R$:37.00";
+            this.foodItemControl1.Size = new System.Drawing.Size(441, 89);
+            this.foodItemControl1.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.foodItemControl1.TabIndex = 0;
+            // 
+            // foodItemControl2
+            // 
+            this.foodItemControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.foodItemControl2.Descricao = "Blend do D. Layone de 180g, queijo mussarela, bacon, alface, tomate e pão brioche" +
+    " selado na manteiga.";
+            this.foodItemControl2.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.lc;
+            this.foodItemControl2.Location = new System.Drawing.Point(4, 149);
+            this.foodItemControl2.Margin = new System.Windows.Forms.Padding(4, 8, 8, 44);
+            this.foodItemControl2.Name = "foodItemControl2";
+            this.foodItemControl2.NomeProduto = "Layone Classic";
+            this.foodItemControl2.Padding = new System.Windows.Forms.Padding(8);
+            this.foodItemControl2.Preco = "R$:36.00";
+            this.foodItemControl2.Size = new System.Drawing.Size(441, 89);
+            this.foodItemControl2.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.foodItemControl2.TabIndex = 1;
+            // 
+            // foodItemControl3
+            // 
+            this.foodItemControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.foodItemControl3.Descricao = "Blend do D. Layone de 180g, queijo mussarela, farofa de bacon, chutney de manga e" +
+    " pão brioche.";
+            this.foodItemControl3.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.dl;
+            this.foodItemControl3.Location = new System.Drawing.Point(4, 290);
+            this.foodItemControl3.Margin = new System.Windows.Forms.Padding(4, 8, 8, 44);
+            this.foodItemControl3.Name = "foodItemControl3";
+            this.foodItemControl3.NomeProduto = "Don Layone";
+            this.foodItemControl3.Padding = new System.Windows.Forms.Padding(8);
+            this.foodItemControl3.Preco = "R$:33.00";
+            this.foodItemControl3.Size = new System.Drawing.Size(441, 89);
+            this.foodItemControl3.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.foodItemControl3.TabIndex = 2;
+            // 
+            // foodItemControl4
+            // 
+            this.foodItemControl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.foodItemControl4.Descricao = "Blend do D. Layone de 180g, queijo mussarela, molho barbecue, bacon e alface no p" +
+    "ão brioche.";
+            this.foodItemControl4.Imagem = global::D.LAYONEBURGUERS.Properties.Resources.a;
+            this.foodItemControl4.Location = new System.Drawing.Point(4, 431);
+            this.foodItemControl4.Margin = new System.Windows.Forms.Padding(4, 8, 8, 44);
+            this.foodItemControl4.Name = "foodItemControl4";
+            this.foodItemControl4.NomeProduto = "American Way";
+            this.foodItemControl4.Padding = new System.Windows.Forms.Padding(8);
+            this.foodItemControl4.Preco = "R$:36.00";
+            this.foodItemControl4.Size = new System.Drawing.Size(441, 89);
+            this.foodItemControl4.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.foodItemControl4.TabIndex = 3;
+            // 
+            // foodItemControl5
+            // 
+            this.foodItemControl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.foodItemControl5.Descricao = "Pão brioche, hambúrguer de plantas fazenda futuro, queijo cheddar, onion rings, a" +
+    "lface e tomate.";
+            this.foodItemControl5.Imagem = global::D.LAYONEBURGUERS.Properties.Resources._6c84348d90db0bf30c431408ad5ff6ec;
+            this.foodItemControl5.Location = new System.Drawing.Point(8, 572);
+            this.foodItemControl5.Margin = new System.Windows.Forms.Padding(8, 8, 8, 44);
+            this.foodItemControl5.Name = "foodItemControl5";
+            this.foodItemControl5.NomeProduto = "Layone Nature";
+            this.foodItemControl5.Padding = new System.Windows.Forms.Padding(8);
+            this.foodItemControl5.Preco = "R$:40.00";
+            this.foodItemControl5.Size = new System.Drawing.Size(441, 89);
+            this.foodItemControl5.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.foodItemControl5.TabIndex = 4;
+            // 
+            // foodItemControl6
+            // 
+            this.foodItemControl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.foodItemControl6.Descricao = "Coca Cola de 350ml";
+            this.foodItemControl6.Imagem = global::D.LAYONEBURGUERS.Properties.Resources._7da3128ee79670fbc789ec68078ba489;
+            this.foodItemControl6.Location = new System.Drawing.Point(8, 713);
+            this.foodItemControl6.Margin = new System.Windows.Forms.Padding(8, 8, 8, 44);
+            this.foodItemControl6.Name = "foodItemControl6";
+            this.foodItemControl6.NomeProduto = "Coca Cola ";
+            this.foodItemControl6.Padding = new System.Windows.Forms.Padding(8);
+            this.foodItemControl6.Preco = "R$:6.00";
+            this.foodItemControl6.Size = new System.Drawing.Size(441, 89);
+            this.foodItemControl6.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.foodItemControl6.TabIndex = 5;
             // 
             // Form1
             // 

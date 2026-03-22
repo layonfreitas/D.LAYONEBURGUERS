@@ -26,32 +26,32 @@ namespace D.LAYONEBURGUERS
            
             foodItemControl1.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(ref precoitem1, "lblItem1", "Papa Layon Chicken", foodItemControl1.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem1, "lblItem1", "Layone Royale", foodItemControl1.numericUpDown1.Value, 37.00);
             };
             
             foodItemControl2.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(ref precoitem2, "lblItem2", "Wr pigs", foodItemControl2.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem2, "lblItem2", "Layone Classic", foodItemControl2.numericUpDown1.Value, 36.00);
             };
             
             foodItemControl3.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(ref precoitem3, "lblItem3", "crocante", foodItemControl3.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem3, "lblItem3", "Don Layone", foodItemControl3.numericUpDown1.Value, 33.00);
             };
             
             foodItemControl4.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(ref precoitem4, "lblItem4", "voadora Chicken", foodItemControl4.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem4, "lblItem4", "American Way", foodItemControl4.numericUpDown1.Value, 36.00);
             };
 
             foodItemControl5.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(ref precoitem5, "lblItem5", " oh layon", foodItemControl5.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem5, "lblItem5", "Layone Nature", foodItemControl5.numericUpDown1.Value, 40.00);
             }; 
             
             foodItemControl6.numericUpDown1.ValueChanged += (s, e) =>
             {
-                GerenciarItemCarrinho(ref precoitem6, "lblItem6", " coca-cola", foodItemControl5.numericUpDown1.Value, 32.00);
+                GerenciarItemCarrinho(ref precoitem6, "lblItem6", "Coca Cola", foodItemControl6.numericUpDown1.Value, 6.00);
             };
 
 
