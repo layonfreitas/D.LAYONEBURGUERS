@@ -22,6 +22,7 @@ namespace D.LAYONEBURGUERS
         public Form1()
         {
             InitializeComponent();
+            tabControl1.TabPages.Remove(tbcCarrinho);
             lblPrecoTotal.Text = "R$ 0.00";
            
             foodItemControl1.numericUpDown1.ValueChanged += (s, e) =>
@@ -147,10 +148,44 @@ namespace D.LAYONEBURGUERS
 
         }
 
+        private void foodItemControl1_Load_3(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            tabControl1.TabPages.Add(tbcCarrinho);
+            tabControl1.TabPages.Remove(tbcCardapio);
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            tabControl1.TabPages.Add(tbcCardapio);
+            tabControl1.TabPages.Remove(tbcCarrinho);
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (flowLayoutPanel3.Controls.Count > 0)
             {
+               
                 if (MessageBox.Show("Tem certeza?", "Confirmar pedido", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
                     Close();
@@ -188,7 +223,7 @@ namespace D.LAYONEBURGUERS
                 btnCancel.Enabled = true;
 
             }
-            precoTotal = precoitem1 + precoitem2 + precoitem3 + precoitem4 + precoitem5;
+            precoTotal = precoitem1 + precoitem2 + precoitem3 + precoitem4 + precoitem5 + precoitem6;
             lblPrecoTotal.Text = "R$ " + precoTotal.ToString("F2");
 
         }

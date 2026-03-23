@@ -22,23 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.Designer.cs*",
-              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.Designer.cs*",
-              "ViewState": "AgIAADwBAAAAAAAAAAAgwEIBAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
+              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs*",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs*",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAAK4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T16:11:00.912Z",
+              "WhenOpened": "2026-03-16T13:51:39.091Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -51,19 +48,24 @@
               "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T13:20:05.543Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
-              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.cs",
-              "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs*",
-              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs*",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAwwKoAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.Designer.cs*",
+              "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:51:39.091Z",
+              "WhenOpened": "2026-03-18T16:11:00.912Z",
               "EditorCaption": ""
             }
           ]
