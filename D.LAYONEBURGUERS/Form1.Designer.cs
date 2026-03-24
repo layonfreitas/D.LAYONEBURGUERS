@@ -32,36 +32,36 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tbcCardapio = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnAddCarrinho = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.tbcCarrinho = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblEndereco = new System.Windows.Forms.Label();
+            this.txbEndereco = new System.Windows.Forms.TextBox();
+            this.cbxEntrega = new System.Windows.Forms.CheckBox();
+            this.cbxRetirada = new System.Windows.Forms.CheckBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblPrecoTotal = new System.Windows.Forms.Label();
+            this.lblVazio = new System.Windows.Forms.Label();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnConfirm = new System.Windows.Forms.Button();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.foodItemControl1 = new D.LAYONEBURGUERS.FoodItemControl();
             this.foodItemControl2 = new D.LAYONEBURGUERS.FoodItemControl();
             this.foodItemControl3 = new D.LAYONEBURGUERS.FoodItemControl();
             this.foodItemControl4 = new D.LAYONEBURGUERS.FoodItemControl();
             this.foodItemControl5 = new D.LAYONEBURGUERS.FoodItemControl();
             this.foodItemControl6 = new D.LAYONEBURGUERS.FoodItemControl();
-            this.tbcCarrinho = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnAddCarrinho = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblPrecoTotal = new System.Windows.Forms.Label();
-            this.lblVazio = new System.Windows.Forms.Label();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnConfirm = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tbcCardapio.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.tbcCarrinho.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -107,6 +107,195 @@
             this.flowLayoutPanel2.TabIndex = 0;
             this.flowLayoutPanel2.WrapContents = false;
             this.flowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.WindowText;
+            this.panel3.Controls.Add(this.btnAddCarrinho);
+            this.panel3.Controls.Add(this.panel2);
+            this.panel3.Location = new System.Drawing.Point(-4, 350);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(471, 105);
+            this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // btnAddCarrinho
+            // 
+            this.btnAddCarrinho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.btnAddCarrinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddCarrinho.Location = new System.Drawing.Point(331, 32);
+            this.btnAddCarrinho.Name = "btnAddCarrinho";
+            this.btnAddCarrinho.Size = new System.Drawing.Size(125, 23);
+            this.btnAddCarrinho.TabIndex = 1;
+            this.btnAddCarrinho.Text = "Adicionar ao carrinho";
+            this.btnAddCarrinho.UseVisualStyleBackColor = false;
+            this.btnAddCarrinho.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.panel2.Location = new System.Drawing.Point(5, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(487, 6);
+            this.panel2.TabIndex = 0;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // tbcCarrinho
+            // 
+            this.tbcCarrinho.BackgroundImage = global::D.LAYONEBURGUERS.Properties.Resources.ChatGPT_Image_16_de_mar__de_2026__10_45_16;
+            this.tbcCarrinho.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tbcCarrinho.Controls.Add(this.panel1);
+            this.tbcCarrinho.Controls.Add(this.flowLayoutPanel3);
+            this.tbcCarrinho.Location = new System.Drawing.Point(4, 22);
+            this.tbcCarrinho.Name = "tbcCarrinho";
+            this.tbcCarrinho.Padding = new System.Windows.Forms.Padding(0, 0, 5, 55);
+            this.tbcCarrinho.Size = new System.Drawing.Size(494, 638);
+            this.tbcCarrinho.TabIndex = 0;
+            this.tbcCarrinho.Text = "Carrinho";
+            this.tbcCarrinho.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.lblEndereco);
+            this.panel1.Controls.Add(this.txbEndereco);
+            this.panel1.Controls.Add(this.cbxEntrega);
+            this.panel1.Controls.Add(this.cbxRetirada);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.lblPrecoTotal);
+            this.panel1.Controls.Add(this.lblVazio);
+            this.panel1.Controls.Add(this.btnCancel);
+            this.panel1.Controls.Add(this.btnConfirm);
+            this.panel1.Location = new System.Drawing.Point(0, 290);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(461, 128);
+            this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(215, 95);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Voltar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 105);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Total:";
+            // 
+            // lblEndereco
+            // 
+            this.lblEndereco.AutoSize = true;
+            this.lblEndereco.Location = new System.Drawing.Point(88, 19);
+            this.lblEndereco.Name = "lblEndereco";
+            this.lblEndereco.Size = new System.Drawing.Size(105, 13);
+            this.lblEndereco.TabIndex = 18;
+            this.lblEndereco.Text = "Digite seu endereço:";
+            // 
+            // txbEndereco
+            // 
+            this.txbEndereco.Location = new System.Drawing.Point(90, 43);
+            this.txbEndereco.Multiline = true;
+            this.txbEndereco.Name = "txbEndereco";
+            this.txbEndereco.Size = new System.Drawing.Size(103, 17);
+            this.txbEndereco.TabIndex = 17;
+            // 
+            // cbxEntrega
+            // 
+            this.cbxEntrega.AutoSize = true;
+            this.cbxEntrega.Location = new System.Drawing.Point(9, 40);
+            this.cbxEntrega.Name = "cbxEntrega";
+            this.cbxEntrega.Size = new System.Drawing.Size(63, 17);
+            this.cbxEntrega.TabIndex = 16;
+            this.cbxEntrega.Text = "Entrega";
+            this.cbxEntrega.UseVisualStyleBackColor = true;
+            this.cbxEntrega.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // cbxRetirada
+            // 
+            this.cbxRetirada.AutoCheck = false;
+            this.cbxRetirada.AutoSize = true;
+            this.cbxRetirada.Location = new System.Drawing.Point(9, 18);
+            this.cbxRetirada.Name = "cbxRetirada";
+            this.cbxRetirada.Size = new System.Drawing.Size(57, 17);
+            this.cbxRetirada.TabIndex = 15;
+            this.cbxRetirada.Text = "Retirar";
+            this.cbxRetirada.UseVisualStyleBackColor = true;
+            this.cbxRetirada.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(271, 32);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(180, 50);
+            this.textBox1.TabIndex = 14;
+            // 
+            // lblPrecoTotal
+            // 
+            this.lblPrecoTotal.BackColor = System.Drawing.Color.White;
+            this.lblPrecoTotal.Location = new System.Drawing.Point(46, 105);
+            this.lblPrecoTotal.Name = "lblPrecoTotal";
+            this.lblPrecoTotal.Size = new System.Drawing.Size(80, 13);
+            this.lblPrecoTotal.TabIndex = 13;
+            // 
+            // lblVazio
+            // 
+            this.lblVazio.AutoSize = true;
+            this.lblVazio.Location = new System.Drawing.Point(271, 11);
+            this.lblVazio.Name = "lblVazio";
+            this.lblVazio.Size = new System.Drawing.Size(183, 13);
+            this.lblVazio.TabIndex = 12;
+            this.lblVazio.Text = "Nenhum item adicionado ao carrinho.";
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.Transparent;
+            this.btnCancel.Location = new System.Drawing.Point(296, 95);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 11;
+            this.btnCancel.Text = "Cancelar";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            // 
+            // btnConfirm
+            // 
+            this.btnConfirm.BackColor = System.Drawing.Color.Transparent;
+            this.btnConfirm.Location = new System.Drawing.Point(377, 95);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(75, 23);
+            this.btnConfirm.TabIndex = 10;
+            this.btnConfirm.Text = "Confirmar";
+            this.btnConfirm.UseVisualStyleBackColor = false;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(489, 293);
+            this.flowLayoutPanel3.TabIndex = 0;
+            this.flowLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackgroundImage = global::D.LAYONEBURGUERS.Properties.Resources.bANNER1;
+            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, -2);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(465, 97);
+            this.flowLayoutPanel1.TabIndex = 3;
             // 
             // foodItemControl1
             // 
@@ -204,195 +393,6 @@
             this.foodItemControl6.SizeModeImagem = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.foodItemControl6.TabIndex = 5;
             // 
-            // tbcCarrinho
-            // 
-            this.tbcCarrinho.BackgroundImage = global::D.LAYONEBURGUERS.Properties.Resources.ChatGPT_Image_16_de_mar__de_2026__10_45_16;
-            this.tbcCarrinho.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tbcCarrinho.Controls.Add(this.panel1);
-            this.tbcCarrinho.Controls.Add(this.flowLayoutPanel3);
-            this.tbcCarrinho.Location = new System.Drawing.Point(4, 22);
-            this.tbcCarrinho.Name = "tbcCarrinho";
-            this.tbcCarrinho.Padding = new System.Windows.Forms.Padding(0, 0, 5, 55);
-            this.tbcCarrinho.Size = new System.Drawing.Size(494, 638);
-            this.tbcCarrinho.TabIndex = 0;
-            this.tbcCarrinho.Text = "Carrinho";
-            this.tbcCarrinho.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.checkBox2);
-            this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.lblPrecoTotal);
-            this.panel1.Controls.Add(this.lblVazio);
-            this.panel1.Controls.Add(this.btnCancel);
-            this.panel1.Controls.Add(this.btnConfirm);
-            this.panel1.Location = new System.Drawing.Point(0, 290);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(461, 128);
-            this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(489, 293);
-            this.flowLayoutPanel3.TabIndex = 0;
-            this.flowLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackgroundImage = global::D.LAYONEBURGUERS.Properties.Resources.bANNER1;
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, -2);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(465, 97);
-            this.flowLayoutPanel1.TabIndex = 3;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.WindowText;
-            this.panel3.Controls.Add(this.btnAddCarrinho);
-            this.panel3.Controls.Add(this.panel2);
-            this.panel3.Location = new System.Drawing.Point(-4, 350);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(471, 105);
-            this.panel3.TabIndex = 2;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.panel2.Location = new System.Drawing.Point(5, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(487, 6);
-            this.panel2.TabIndex = 0;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // btnAddCarrinho
-            // 
-            this.btnAddCarrinho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
-            this.btnAddCarrinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddCarrinho.Location = new System.Drawing.Point(331, 32);
-            this.btnAddCarrinho.Name = "btnAddCarrinho";
-            this.btnAddCarrinho.Size = new System.Drawing.Size(125, 23);
-            this.btnAddCarrinho.TabIndex = 1;
-            this.btnAddCarrinho.Text = "Adicionar ao carrinho";
-            this.btnAddCarrinho.UseVisualStyleBackColor = false;
-            this.btnAddCarrinho.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 105);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 19;
-            this.label2.Text = "Total:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 13);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Digite seu endereço:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(90, 43);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(103, 17);
-            this.textBox2.TabIndex = 17;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Location = new System.Drawing.Point(9, 40);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(63, 17);
-            this.checkBox2.TabIndex = 16;
-            this.checkBox2.Text = "Entrega";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(9, 18);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(57, 17);
-            this.checkBox1.TabIndex = 15;
-            this.checkBox1.Text = "Retirar";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(271, 32);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 50);
-            this.textBox1.TabIndex = 14;
-            // 
-            // lblPrecoTotal
-            // 
-            this.lblPrecoTotal.BackColor = System.Drawing.Color.White;
-            this.lblPrecoTotal.Location = new System.Drawing.Point(46, 105);
-            this.lblPrecoTotal.Name = "lblPrecoTotal";
-            this.lblPrecoTotal.Size = new System.Drawing.Size(80, 13);
-            this.lblPrecoTotal.TabIndex = 13;
-            // 
-            // lblVazio
-            // 
-            this.lblVazio.AutoSize = true;
-            this.lblVazio.Location = new System.Drawing.Point(271, 11);
-            this.lblVazio.Name = "lblVazio";
-            this.lblVazio.Size = new System.Drawing.Size(183, 13);
-            this.lblVazio.TabIndex = 12;
-            this.lblVazio.Text = "Nenhum item adicionado ao carrinho.";
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.BackColor = System.Drawing.Color.Transparent;
-            this.btnCancel.Location = new System.Drawing.Point(296, 95);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 11;
-            this.btnCancel.Text = "Cancelar";
-            this.btnCancel.UseVisualStyleBackColor = false;
-            // 
-            // btnConfirm
-            // 
-            this.btnConfirm.BackColor = System.Drawing.Color.Transparent;
-            this.btnConfirm.Location = new System.Drawing.Point(377, 95);
-            this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(75, 23);
-            this.btnConfirm.TabIndex = 10;
-            this.btnConfirm.Text = "Confirmar";
-            this.btnConfirm.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(215, 95);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Voltar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -409,10 +409,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tbcCardapio.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.tbcCarrinho.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -435,10 +435,10 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnAddCarrinho;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label lblEndereco;
+        private System.Windows.Forms.TextBox txbEndereco;
+        private System.Windows.Forms.CheckBox cbxEntrega;
+        private System.Windows.Forms.CheckBox cbxRetirada;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblPrecoTotal;
         private System.Windows.Forms.Label lblVazio;
