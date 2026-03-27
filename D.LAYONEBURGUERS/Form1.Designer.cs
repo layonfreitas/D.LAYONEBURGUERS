@@ -41,8 +41,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblEndereco = new System.Windows.Forms.Label();
             this.txbEndereco = new System.Windows.Forms.TextBox();
-            this.cbxEntrega = new System.Windows.Forms.CheckBox();
-            this.cbxRetirada = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblPrecoTotal = new System.Windows.Forms.Label();
             this.lblVazio = new System.Windows.Forms.Label();
@@ -50,6 +48,8 @@
             this.btnConfirm = new System.Windows.Forms.Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.cbReti = new System.Windows.Forms.CheckBox();
+            this.cbEntre = new System.Windows.Forms.CheckBox();
             this.foodItemControl1 = new D.LAYONEBURGUERS.FoodItemControl();
             this.foodItemControl2 = new D.LAYONEBURGUERS.FoodItemControl();
             this.foodItemControl3 = new D.LAYONEBURGUERS.FoodItemControl();
@@ -157,12 +157,12 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(199)))), ((int)(((byte)(32)))));
+            this.panel1.Controls.Add(this.cbEntre);
+            this.panel1.Controls.Add(this.cbReti);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.lblEndereco);
             this.panel1.Controls.Add(this.txbEndereco);
-            this.panel1.Controls.Add(this.cbxEntrega);
-            this.panel1.Controls.Add(this.cbxRetirada);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.lblPrecoTotal);
             this.panel1.Controls.Add(this.lblVazio);
@@ -210,29 +210,6 @@
             this.txbEndereco.Name = "txbEndereco";
             this.txbEndereco.Size = new System.Drawing.Size(103, 17);
             this.txbEndereco.TabIndex = 17;
-            // 
-            // cbxEntrega
-            // 
-            this.cbxEntrega.AutoSize = true;
-            this.cbxEntrega.Location = new System.Drawing.Point(9, 40);
-            this.cbxEntrega.Name = "cbxEntrega";
-            this.cbxEntrega.Size = new System.Drawing.Size(63, 17);
-            this.cbxEntrega.TabIndex = 16;
-            this.cbxEntrega.Text = "Entrega";
-            this.cbxEntrega.UseVisualStyleBackColor = true;
-            this.cbxEntrega.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
-            // 
-            // cbxRetirada
-            // 
-            this.cbxRetirada.AutoCheck = false;
-            this.cbxRetirada.AutoSize = true;
-            this.cbxRetirada.Location = new System.Drawing.Point(9, 18);
-            this.cbxRetirada.Name = "cbxRetirada";
-            this.cbxRetirada.Size = new System.Drawing.Size(57, 17);
-            this.cbxRetirada.TabIndex = 15;
-            this.cbxRetirada.Text = "Retirar";
-            this.cbxRetirada.UseVisualStyleBackColor = true;
-            this.cbxRetirada.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // textBox1
             // 
@@ -296,6 +273,28 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(465, 97);
             this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // cbReti
+            // 
+            this.cbReti.AutoSize = true;
+            this.cbReti.Location = new System.Drawing.Point(9, 19);
+            this.cbReti.Name = "cbReti";
+            this.cbReti.Size = new System.Drawing.Size(66, 17);
+            this.cbReti.TabIndex = 21;
+            this.cbReti.Text = "Retirada";
+            this.cbReti.UseVisualStyleBackColor = true;
+            this.cbReti.CheckedChanged += new System.EventHandler(this.cbReti_CheckedChanged);
+            // 
+            // cbEntre
+            // 
+            this.cbEntre.AutoSize = true;
+            this.cbEntre.Location = new System.Drawing.Point(9, 45);
+            this.cbEntre.Name = "cbEntre";
+            this.cbEntre.Size = new System.Drawing.Size(63, 17);
+            this.cbEntre.TabIndex = 22;
+            this.cbEntre.Text = "Entrega";
+            this.cbEntre.UseVisualStyleBackColor = true;
+            this.cbEntre.CheckedChanged += new System.EventHandler(this.cbEntre_CheckedChanged);
             // 
             // foodItemControl1
             // 
@@ -437,14 +436,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblEndereco;
         private System.Windows.Forms.TextBox txbEndereco;
-        private System.Windows.Forms.CheckBox cbxEntrega;
-        private System.Windows.Forms.CheckBox cbxRetirada;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblPrecoTotal;
         private System.Windows.Forms.Label lblVazio;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox cbEntre;
+        private System.Windows.Forms.CheckBox cbReti;
     }
 }
 

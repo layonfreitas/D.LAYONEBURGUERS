@@ -25,10 +25,10 @@ namespace D.LAYONEBURGUERS
             tabControl1.TabPages.Remove(tbcCarrinho);
             lblPrecoTotal.Text = "R$ 0.00";
 
-            
 
-           // txbEndereco.Visible = false;
-            //lblEndereco.Visible = false;
+            cbReti.Checked = true;
+            txbEndereco.Visible = false;
+            lblEndereco.Visible = false;
 
             foodItemControl1.numericUpDown1.ValueChanged += (s, e) =>
             {
@@ -183,25 +183,33 @@ namespace D.LAYONEBURGUERS
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (cbxRetirada.Checked)
-            {
-                cbxEntrega.Checked = false;
+            
+        }
+
+        private void cbReti_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbReti.Checked){
+                cbEntre.Checked = false;
                 txbEndereco.Visible = false;
                 lblEndereco.Visible = false;
-
             }
-            else { }
+            else { cbEntre.Checked = true; }
+        }
+
+        private void cbEntre_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbEntre.Checked)
+            {
+                cbReti.Checked = false;
+                txbEndereco.Visible = true;
+                lblEndereco.Visible = true;
+            }
+            else { cbReti.Checked = true; }
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            if (cbxEntrega.Checked)
-            {
-                cbxRetirada.Checked = false;
-                txbEndereco.Visible = true;
-                lblEndereco.Visible = true;
-            }
-            else { }
+          
         }
 
         private void button1_Click(object sender, EventArgs e)

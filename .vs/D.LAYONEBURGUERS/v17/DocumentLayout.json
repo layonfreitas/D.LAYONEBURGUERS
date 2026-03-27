@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.cs",
               "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.cs",
               "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAiwMAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T13:51:39.091Z",
               "IsPinned": true,
@@ -48,7 +48,8 @@
               "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T13:20:05.543Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -62,9 +63,10 @@
               "RelativeDocumentMoniker": "D.LAYONEBURGUERS\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\Alunos\\Desktop\\D.LAYONEBURGUERS\\D.LAYONEBURGUERS\\Form1.Designer.cs",
               "RelativeToolTip": "D.LAYONEBURGUERS\\Form1.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wN4AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T13:39:01.327Z"
+              "WhenOpened": "2026-03-24T13:39:01.327Z",
+              "EditorCaption": ""
             }
           ]
         }
