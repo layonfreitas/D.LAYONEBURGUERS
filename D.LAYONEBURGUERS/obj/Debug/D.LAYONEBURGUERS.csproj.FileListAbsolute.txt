@@ -20,3 +20,4 @@ C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LA
 C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.csproj.CoreCompileInputs.cache
 C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.exe
 C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\D.LAYONEBURGUERS.pdb
+C:\Users\layon\OneDrive\Desktop\D.LAYONEBURGUERS\D.LAYONEBURGUERS\obj\Debug\logindonlayone.Form2.resources

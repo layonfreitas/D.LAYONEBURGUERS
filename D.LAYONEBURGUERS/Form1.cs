@@ -14,11 +14,11 @@ namespace D.LAYONEBURGUERS
     public partial class Form1 : Form
     {
 
-        double precoitem1, precoitem2, precoitem3, precoitem4, precoitem5,precoitem6, entrega, precoTotal;
-        
-        
+        double precoitem1, precoitem2, precoitem3, precoitem4, precoitem5, precoitem6, entrega, precoTotal;
 
-        
+
+
+
         public Form1()
         {
             InitializeComponent();
@@ -34,17 +34,17 @@ namespace D.LAYONEBURGUERS
             {
                 GerenciarItemCarrinho(ref precoitem1, "lblItem1", "Layone Royale", foodItemControl1.numericUpDown1.Value, 37.00);
             };
-            
+
             foodItemControl2.numericUpDown1.ValueChanged += (s, e) =>
             {
                 GerenciarItemCarrinho(ref precoitem2, "lblItem2", "Layone Classic", foodItemControl2.numericUpDown1.Value, 36.00);
             };
-            
+
             foodItemControl3.numericUpDown1.ValueChanged += (s, e) =>
             {
                 GerenciarItemCarrinho(ref precoitem3, "lblItem3", "Don Layone", foodItemControl3.numericUpDown1.Value, 33.00);
             };
-            
+
             foodItemControl4.numericUpDown1.ValueChanged += (s, e) =>
             {
                 GerenciarItemCarrinho(ref precoitem4, "lblItem4", "American Way", foodItemControl4.numericUpDown1.Value, 36.00);
@@ -53,8 +53,8 @@ namespace D.LAYONEBURGUERS
             foodItemControl5.numericUpDown1.ValueChanged += (s, e) =>
             {
                 GerenciarItemCarrinho(ref precoitem5, "lblItem5", "Layone Nature", foodItemControl5.numericUpDown1.Value, 40.00);
-            }; 
-            
+            };
+
             foodItemControl6.numericUpDown1.ValueChanged += (s, e) =>
             {
                 GerenciarItemCarrinho(ref precoitem6, "lblItem6", "Coca Cola", foodItemControl6.numericUpDown1.Value, 6.00);
@@ -63,8 +63,8 @@ namespace D.LAYONEBURGUERS
 
         }
 
-        
-        
+
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -100,7 +100,7 @@ namespace D.LAYONEBURGUERS
 
         private void foodItemControl1_Load_1(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -140,7 +140,7 @@ namespace D.LAYONEBURGUERS
             foodItemControl3.numericUpDown1.Value = 0;
             foodItemControl4.numericUpDown1.Value = 0;
             foodItemControl5.numericUpDown1.Value = 0;
-            
+
         }
 
         private void foodItemControl1_Load_2(object sender, EventArgs e)
@@ -181,19 +181,49 @@ namespace D.LAYONEBURGUERS
 
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            
-        }
+
 
         private void cbReti_CheckedChanged(object sender, EventArgs e)
         {
-            if (cbReti.Checked){
+            if (cbReti.Checked)
+            {
                 cbEntre.Checked = false;
+
                 txbEndereco.Visible = false;
                 lblEndereco.Visible = false;
+                entrega = 0;
+
+                Control entregaLabel = flowLayoutPanel3.Controls["lblEntrega"];
+                if (entregaLabel != null)
+                {
+                    flowLayoutPanel3.Controls.Remove(entregaLabel);
+                }
+
+                AtualizaCarrinho();
             }
-            else { cbEntre.Checked = true; }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            foodItemControl1.numericUpDown1.Value = 0;
+            foodItemControl2.numericUpDown1.Value = 0;
+            foodItemControl3.numericUpDown1.Value = 0;
+            foodItemControl4.numericUpDown1.Value = 0;
+            foodItemControl5.numericUpDown1.Value = 0;
+            foodItemControl6.numericUpDown1.Value = 0;
+
+        }
+
+        private void btnConfirm_Click(object sender, EventArgs e)
+        {
+            if (flowLayoutPanel3.Controls.Count > 0)
+            {
+
+                if (MessageBox.Show("Tem certeza?", "Confirmar pedido", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    Close();
+                }
+            }
         }
 
         private void cbEntre_CheckedChanged(object sender, EventArgs e)
@@ -201,30 +231,31 @@ namespace D.LAYONEBURGUERS
             if (cbEntre.Checked)
             {
                 cbReti.Checked = false;
+
                 txbEndereco.Visible = true;
                 lblEndereco.Visible = true;
-            }
-            else { cbReti.Checked = true; }
-        }
+                entrega = 5.0;
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (flowLayoutPanel3.Controls.Count > 0)
-            {
-               
-                if (MessageBox.Show("Tem certeza?", "Confirmar pedido", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+              
+                Control entregaLabel = flowLayoutPanel3.Controls["lblEntrega"];
+                if (entregaLabel != null)
                 {
-                    Close();
+                    flowLayoutPanel3.Controls.Remove(entregaLabel);
                 }
+
+                Label label = new Label();
+                label.Text = "Entrega R$ 5.00";
+                label.Name = "lblEntrega";
+                label.AutoSize = true;
+                label.ForeColor = Color.White;
+                flowLayoutPanel3.Controls.Add(label);
+
+                AtualizaCarrinho();
             }
-
-
         }
+
+
+
 
         private void foodItemControl5_Load(object sender, EventArgs e)
         {
@@ -238,12 +269,12 @@ namespace D.LAYONEBURGUERS
 
         private void AtualizaCarrinho()
         {
-            if(flowLayoutPanel3.Controls.Count == 0)
+            if (flowLayoutPanel3.Controls.Count == 0 || (flowLayoutPanel3.Controls.Count == 1 && flowLayoutPanel3.Controls.ContainsKey("lblEntrega")))
             {
                 lblVazio.Text = "Nenhum item adicionado ao carrinho.";
                 btnConfirm.Enabled = false;
                 btnCancel.Enabled = false;
-              
+
 
             }
 
@@ -254,11 +285,19 @@ namespace D.LAYONEBURGUERS
                 btnCancel.Enabled = true;
 
             }
-            precoTotal = precoitem1 + precoitem2 + precoitem3 + precoitem4 + precoitem5 + precoitem6;
+
+            Control entregaLabel = flowLayoutPanel3.Controls["lblEntrega"];
+
+            if (entregaLabel != null)
+            {
+                flowLayoutPanel3.Controls.Remove(entregaLabel);
+                flowLayoutPanel3.Controls.Add(entregaLabel); 
+            }
+            precoTotal = precoitem1 + precoitem2 + precoitem3 + precoitem4 + precoitem5 + precoitem6 + entrega;
             lblPrecoTotal.Text = "R$ " + precoTotal.ToString("F2");
 
         }
-        private void GerenciarItemCarrinho(ref double precoItem, string NomeLabel, string nomeproduto,decimal qtd,  double preco)
+        private void GerenciarItemCarrinho(ref double precoItem, string NomeLabel, string nomeproduto, decimal qtd, double preco)
         {
 
 
@@ -267,14 +306,15 @@ namespace D.LAYONEBURGUERS
 
             if (umFoodItemControl != null)
             {
-                flowLayoutPanel3.Controls.Remove(umFoodItemControl);    
+                flowLayoutPanel3.Controls.Remove(umFoodItemControl);
 
             }
 
-            
 
-            
-            if (qtd>0){
+
+
+            if (qtd > 0)
+            {
                 Label label = new Label();
                 label.Text = $"{qtd}- {nomeproduto} R${precoItem}";
                 label.Name = NomeLabel;
@@ -282,10 +322,10 @@ namespace D.LAYONEBURGUERS
                 label.ForeColor = Color.White;
                 flowLayoutPanel3.Controls.Add(label);
             }
-            
+
 
             AtualizaCarrinho();
-            
+
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -293,6 +333,6 @@ namespace D.LAYONEBURGUERS
 
         }
 
-     
+
     }
 }
